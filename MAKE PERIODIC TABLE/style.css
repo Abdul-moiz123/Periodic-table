@@ -1,0 +1,73 @@
+body {
+    background-image: url(th.jpg);
+}
+
+#parent {
+    border: 3px solid black;
+    background-color: cadetblue;
+
+}
+
+
+h1 {
+    background-color: burlywood;
+    width: 270px;
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    text-shadow: 3px 3px 5px black;
+}
+
+#div2 table thead th {
+    border: 3px solid black;
+    text-align: center;
+    background-color: aqua;
+    text-shadow: 3px 3px 5px white , -3px -3px 5px white;
+
+}
+
+#div2 table tbody tr td {
+    border: 2px solid black;
+    text-align: center;
+    height: 50px;
+    background-color:darkkhaki;
+    text-shadow: 3px 3px 5px white , -3px -3px 5px white;
+}
+
+#div3 table {
+    border: 2px solid black;
+    position: relative;
+    top: 40px;
+    left: 9em;
+    background-color: cadetblue;
+    text-shadow: 3px 3px 5px white , -3px -3px 5px white;
+}
+
+.moiz{
+    empty-cells: hide;
+}
+
+#div3 table #tr1 td {
+    border: 2px solid black;
+    width: 66px;
+    height: 50px;
+    text-align: center;
+    background-color: red;
+}
+
+#div2 table tbody tr #la {
+    background-color: red;
+
+}
+
+#div3 table #tr2 td {
+    border: 2px solid black;
+    width: 66px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(28, 233, 28);
+}
+
+#div2 table tbody tr #ac {
+    background-color: rgb(28, 233, 28);
+}
